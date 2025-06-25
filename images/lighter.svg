@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 150 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#888;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#666;stop-opacity:1" />
+      <stop offset="90%" style="stop-color:#444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#444;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="capGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#aaa;stop-opacity:1" />
+      <stop offset="90%" style="stop-color:#777;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect x="25" y="35" width="90" height="30" rx="3" ry="3" fill="url(#bodyGradient)" stroke="rgba(10,10,10,0.5)" stroke-width="1.5"/>
+  <rect x="115" y="30" width="15" height="40" rx="5" ry="5" fill="url(#capGradient)" stroke="rgba(15,15,15,0.5)" stroke-width="1"/>
+
+  <rect x="80" y="37.5" width="15" height="25" fill="#777" rx="3" ry="3" stroke="rgba(10,10,10,0.3)" stroke-width="1"/>
+  <circle cx="87.5" cy="50" r="7" fill="#222" stroke="#666" stroke-width="1"/>
+  <circle cx="87.5" cy="50" r="3" fill="rgba(128,0,0,0.5)"/>
+
+  <path d="M30 35 v 30 a 5 5 0 0 1 5 -5 h 80 a -5 -5 0 0 1 -5 5  z" fill="rgba(255,255,255,0.1)"/>
+
+  <line x1="55" y1="35" x2="55" y2="65" stroke="#5C5C5C" stroke-width="0.5"/>
+  <line x1="65" y1="35" x2="65" y2="65" stroke="#5C5C5C" stroke-width="0.5"/>
+  <line x1="75" y1="35" x2="75" y2="65" stroke="#5C5C5C" stroke-width="0.5"/>
+</svg>
