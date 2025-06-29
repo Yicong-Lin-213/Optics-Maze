@@ -278,6 +278,7 @@ class Item {
 
   resetRotateAngle() {
     this._rotateAngle = 0;
+    this._rotateIndex = 0;
   }
 
   get rotateIndex() {
